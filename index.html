@@ -15,8 +15,26 @@
       line-height: 1.6;
       background-color: #FFF
     }
+    body {
+      margin: 0 10px;
+    }
+    a {
+      color: #6CF;
+      text-decoration: none;
+    }
+    .nav {
+      background-color: #4F4F4F;
+      width: 100%;
+      box-shadow: 0 0px 7px rgba(148, 148, 148, 0.7);
+      padding: 0 10px;
+      margin-left: -10px;
+      margin-right: -10px;
+    }
     .nav ul {
       list-style: none;
+      overflow: hidden;
+      margin: 0;
+      padding: 10px;
     }
     .nav ul li {
       float: left;
@@ -30,20 +48,29 @@
       max-width: 720px;
       overflow: hidden;
     }
+    img.logo {
+      padding: 50px 0 5px;
+      margin: 0 auto;
+      text-align: center;
+      display: block;
+      width: 200px;
+    }
     h1 {
       font-family: Georgia, serif;
       text-align: center;
       color: #222;
       font-size: 32px;
       font-weight: 100;
+      margin-top: 0;
     }
     h3 {
       font-family: Georgia, serif;
-      margin: 50px 0 20px;
+      margin: 0 0 20px;
       color: #222;
-      font-size: 24px;
+      font-size: 30px;
       font-weight: 100;
       border-bottom: 1px solid #E0E0E0;
+      padding-top: 40px;
       padding-bottom: 10px;
     }
     .agenda {
@@ -56,7 +83,7 @@
     }
     .agenda dt {
       clear: left;
-      font-weight: 600;
+      font-weight: 500;
       width: 80px
     }
     ul.faqs {
@@ -68,7 +95,7 @@
       margin: 2em 0 3em;
     }
     ul.faqs .faq-question {
-      font-weight: 600;
+      font-weight: 500;
     }
   </style>
 </head>
@@ -99,7 +126,8 @@
       </div>
     </div>
     <div class="container">
-      <h1 id="about">NodeSchool Madison</h1>
+      <img id="about"class="logo" alt="NodeSchool MSN" src="images/nodeschool.png" />
+      <h1>NodeSchool Madison</h1>
     </div>
   </header>
   <div class="main-content">
@@ -115,7 +143,6 @@
       </p>
 
       <h3 id="events">Upcoming Events</h3>
-
       <p><b>December 3, 2015</b>: Introduction to NodeSchool and Learn You Node Workshopper</p>
       <p>
         <b>Agenda</b>
@@ -183,7 +210,7 @@
           </div>
         </li>
         <li>
-          <a class="faq-question">I don’t know JavaScript. Can I still attend?</a>
+          <div class="faq-question">I don’t know JavaScript. Can I still attend?</div>
           <div class="faq-answer">
             <p>
               Of course! There are workshops specifically designed for people who are new to JavaScript. Also
