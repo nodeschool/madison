@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,8 +7,283 @@
   <link href="images/favicon.ico" rel="shortcut icon">
   <meta name="description" content="Welcome to Nodeschool Madison.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html {
+      font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      color: #444;
+      font-size: 16px;
+      line-height: 1.6;
+      background-color: #FFF
+    }
+    .nav ul {
+      list-style: none;
+    }
+    .nav ul li {
+      float: left;
+    }
+    .nav ul li a {
+      display: block;
+      margin: 10px;
+    }
+    .container {
+      margin: 0 auto;
+      max-width: 720px;
+      overflow: hidden;
+    }
+    h1 {
+      font-family: Georgia, serif;
+      text-align: center;
+      color: #222;
+      font-size: 32px;
+      font-weight: 100;
+    }
+    h3 {
+      font-family: Georgia, serif;
+      margin: 50px 0 20px;
+      color: #222;
+      font-size: 24px;
+      font-weight: 100;
+      border-bottom: 1px solid #E0E0E0;
+      padding-bottom: 10px;
+    }
+    .agenda {
+      padding-left: 30px;
+      overflow: hidden;
+    }
+    .agenda dt, dd {
+      margin: 0 0 15px;
+      float: left
+    }
+    .agenda dt {
+      clear: left;
+      font-weight: 600;
+      width: 80px
+    }
+    ul.faqs {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    ul.faqs li {
+      margin: 2em 0 3em;
+    }
+    ul.faqs .faq-question {
+      font-weight: 600;
+    }
+  </style>
 </head>
 <body>
-  <p>Hello world!</p>
+  <header>
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#events">Events</a>
+          </li>
+          <li>
+            <a href="#faqs">FAQs</a>
+          </li>
+          <li>
+            <a href="#getting-started">Getting Started</a>
+          </li>
+          <li>
+            <a href="#code-of-conduct">Code of Conduct</a>
+          </li>
+          <li>
+            <a href="#additional-resources">Additional Resources</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h1 id="about">NodeSchool Madison</h1>
+    </div>
+  </header>
+  <div class="main-content">
+    <div class="container">
+      <p>
+        NodeSchool Madison is part of the global NodeSchool effort to voluntarily teach Node.js to anyone! The
+        source code for the workshops is completely open source and the effort is entirely community driven.
+        Best of all it is free.
+      </p>
+      <p>
+        The NodeSchool meetings are working sessions, so bring a laptop. Mentors will be available to help
+        if you are just getting started with Node.js, JavaScript, or programming.
+      </p>
+
+      <h3 id="events">Upcoming Events</h3>
+
+      <p><b>December 3, 2015</b>: Introduction to NodeSchool and Learn You Node Workshopper</p>
+      <p>
+        <b>Agenda</b>
+      </p>
+      <dl class="agenda">
+        <dt>6:00 pm</dt>
+        <dd>Dinner is served</dd>
+        <dt>6:15 pm</dt>
+        <dd>Introduction</dd>
+        <dt>6:30 pm</dt>
+        <dd>Session on Learn You Node Workshop</dd>
+        <dt>7:30 pm</dt>
+        <dd>Break</dd>
+        <dt>7:45 pm</dt>
+        <dd>Continue Session on Learn You Node Workshop</dd>
+        <dt>9:00 pm</dt>
+        <dd>End session</dd>
+      </dl>
+
+      <h3 id="faqs">Frequently Asked Questions</h3>
+      <ul class="faqs">
+        <li>
+          <div class="faq-question">What do I need to be prepared for the workshop?</div>
+          <div class="faq-answer">
+            <p>
+              You will need to bring a laptop with you.  The majority of the time you will be writing JavaScript
+              and running it through Node.js. Try to have Node.js installed on your machine before you attend the
+              event. Fortunately Node.js is cross platform so you could write this code on a Windows, Mac, or
+              Linux machine. Here are instructions on how to do that.
+            </p>
+            <p>
+              You should also install a text editor that supports syntax highlighting.  Most developers will have
+              a personal preference, but if you are looking for a good one to start with try Atom (link).
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="faq-question" href="">What is the format of the events?</div>
+          <div class="faq-answer">
+            <p>
+              Each event will begin with an introduction and an overview on the topics that will be covered
+              for that session. All attendees will work on either one or 2 different ‘workshoppers’
+              throughout the event.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="faq-question">What is a workshopper?</div>
+          <div class="faq-answer">
+            <p>
+              The defining characteristic of the workshopper is the interactivity and automation. Workshoppers
+              are made up of challenges of increasing difficulty. Each challenge starts by explaining a concept,
+              and then presents a list of requirements for solving the challenge. Learners then try and write
+              a computer program that satisfies the criteria.
+            </p>
+            <p>
+              When they feel confident about their solution they submit it to the workshop for verification. The
+              workshop runs their solution and checks if all requirements were satisfied. If any are wrong or
+              missing the learner gets contextual feedback and they can try again. If their code passes all of
+              the criteria then they pass the challenge and move on to the next challenge.
+            </p>
+            <p>
+              All of this happens in an automated way usually on the command line.
+            </p>
+          </div>
+        </li>
+        <li>
+          <a class="faq-question">I don’t know JavaScript. Can I still attend?</a>
+          <div class="faq-answer">
+            <p>
+              Of course! There are workshops specifically designed for people who are new to JavaScript. Also
+              what better way to learn than through a self guided workshop with mentors available to answer
+              your questions.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="faq-question">I am an expert in Node.js. Should I still attend?</div>
+          <div class="faq-answer">
+            <p>
+              Workshops cover a great variety of topics. Assume that there are some available that would help
+              you further your knowledge in a new topic. Even if you are an expert in all the things it doesn’t
+              hurt to brush up or even better become a mentor.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="faq-question">How often will the events be held?</div>
+          <div class="faq-answer">
+            <p>
+              Events will be held every other month. Since our first event is in December assume that the
+              next will be February and then April, and then June and then… you get the idea.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <h3 id="getting-started">Getting Started with Node</h3>
+      <p>
+        Node.js is easy to install. Just visit the download page and get started.(<a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>)
+      </p>
+      <p>
+        The Art of Node is a great guide on the core concepts of Node.js (<a href="https://github.com/maxogden/art-of-node/#the-art-of-node">https://github.com/maxogden/art-of-node/#the-art-of-node</a>)
+      </p>
+      <p>
+        An excellent list of modules, resources, and other node knowledge is listed on Awesome Node.(<a href="https://github.com/sindresorhus/awesome-nodejs">https://github.com/sindresorhus/awesome-nodejs</a>)
+      </p>
+
+      <h3 id="code-of-conduct">Code of Conduct</h3>
+      <p>
+        MadJS is dedicated to providing a harassment-free experience for everyone.
+      </p>
+      <p>
+        Harassment includes offensive verbal comments related to gender, age, sexual orientation, disability,
+        physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation,
+        stalking, following, harassing photography or recording, sustained disruption of talks or other events,
+        inappropriate physical contact, and unwelcome sexual attention.
+      </p>
+      <p>
+        Participants asked to stop any harassing behavior are expected to comply immediately.
+      </p>
+      <p>
+        Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualized
+        images, activities, or other material.
+      </p>
+      <p>
+        If a participant engages in harassing behavior, the user group organizers may take any action they deem
+        appropriate, including warning the offender or expulsion from the event.
+      </p>
+      <p>
+        If you are being harassed, notice that someone else is being harassed, or have any other concerns, please
+        contact a MadJS organizer immediately.
+      </p>
+      <p>
+        We expect participants to follow these rules at events and event-related social events.
+      </p>
+
+      <h3 id="additional-resources">Additional Resources</h3>
+      <ul>
+        <li>
+          NodeSchool Madison GitHub site:
+          <a href="https://github.com/nodeschool/madison">https://github.com/nodeschool/madison</a>
+        </li>
+        <li>
+          Global NodeSchool GitHub issues (contains a long history of questions and answers about NodeSchool):
+          <a href="https://github.com/nodeschool/discussions/issues">https://github.com/nodeschool/discussions/issues</a>
+        </li>
+        <li>
+          NodeUp Podcast discussing NodeSchool:
+          <a href="http://nodeup.com/fiftyfive">http://nodeup.com/fiftyfive</a>
+        </li>
+        <li>
+          JSJ Podcast discussing NodeSchool:
+          <a href="https://devchat.tv/js-jabber/172-jsj-nodeschool-with-jason-rhodes">https://devchat.tv/js-jabber/172-jsj-nodeschool-with-jason-rhodes</a>
+        </li>
+        <li>
+          Teach Your Way to Becoming a Better Programmer (via NodeSchool):
+          <a href="https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968">https://medium.com/social-tables-tech/teach-your-way-to-becoming-a-better-programmer-135c6aca5968</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      twitter
+      github
+      meetup
+    </div>
+  </footer>
 </body>
 </html>
