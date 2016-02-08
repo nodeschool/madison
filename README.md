@@ -6,5 +6,8 @@ The NodeSchool meetings are working sessions, so bring a laptop. Mentors will be
 More details to come.
 
 # Upcoming events:
-December 3rd, 2015
-http://www.meetup.com/MadisonJS/events/225782940/
+February 10th, 2016
+
+Signup: http://www.meetup.com/MadisonJS/events/228015142/
+
+Event Details: http://nodeschool.io/madison/
