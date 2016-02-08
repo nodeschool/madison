@@ -158,6 +158,21 @@
             </p>
           </div>
         </li>
+        <li>
+          <div class="faq-question">Some of the text does not appear in my terminal from the workshop. How do I fix it?</div>
+          <div class="faq-answer">
+            <p>
+              You are in luck. We just need to strip out the colors from the terminal output.  First install strip-ansi-cli.
+              <pre><code>
+npm install --global strip-ansi-cli
+              </code></pre>
+              Then pass output to through this.
+              <pre><code>
+learnyounode | strip-ansi
+              </code></pre>
+            </p>
+          </div>
+        </li>
       </ul>
 
       <h3 id="getting-started">Getting Started with Node</h3>
