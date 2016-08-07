@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Nodeschool Madison</title>
+  <link href="../images/favicon.ico" rel="shortcut icon">
+  <meta name="description" content="Welcome to Nodeschool Madison.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="event">
+  <header>
+    <div class="nav">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="../index.html#events">Events</a>
+          </li>
+          <li>
+            <a href="../index.html#faqs">FAQs</a>
+          </li>
+          <li>
+            <a href="../index.html#getting-started">Getting Started</a>
+          </li>
+          <li>
+            <a href="../index.html#code-of-conduct">Code of Conduct</a>
+          </li>
+          <li>
+            <a href="../index.html#additional-resources">Additional Resources</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <a href="../index.html"><img class="logo" alt="NodeSchool MSN" src="../images/nodeschool.png" /></a>
+      <h1>Session One: August 8, 2015</h1>
+      <h2>Introduction to NodeSchool and Learn You Node Workshopper</h2>
+      <p><a href="http://www.meetup.com/MadisonJS/events/225782940/">Event Info on Meetup.com</a></p>
+    </div>
+  </header>
+  <div class="main-content">
+    <div class="container">
+      <h3 id="choose">Two available sessions</h3>
+      <p>You must choose, but choose wisely.</p>
+      <p>
+        For this month there are two different workshoppers available. Each offers a very different set of lessons but each
+        will provide the same valuable experience. Please try to have Node.js and the workshopper that you choose installed
+        BEFORE the night of the session.
+      </p>
+      <ol class="workshop-list">
+        <li>
+          <b>Beginner</b>: If you are new to JavaScript programming or programming in general it is best to start with the workshopper <a href="#javascripting">Javascripting</a>.
+          This will provide you with a solid base in the JavaScript programming language and will get you more familiar with the syntax and concepts.
+        </li>
+        <li>
+          <b>Intermediate</b>: If you already know JavaScript and are ready to dive head first into Node.js it is best to start with the workshopper <a href="#learnyounode">Learnyounode</a>.
+          Most web developers will find that this a great intro into the Node.js platform.
+        </li>
+      </ol>
+      <blockquote>
+        <p>
+          <b>Protip:</b> As you work through these sessions create a folder for each workshopper. Each workshopper lesson will require
+          its own file for testing. When you approach a new lesson create a new file. At the end of the workshop you should then have
+          a large list of programs that you will be able to reference in the future.
+<pre><code>
+.
+├── learnyounode
+│   ├── hello-world.js
+│   ├── baby-steps.js
+│   └── first-io.js
+└── javascripting
+</code></pre>
+        </p>
+    </blockquote>
+      <h3 id="events">Agenda</h3>
+      <p><b>August 8, 2015</b>:
+      <p>
+        <b>Agenda</b>
+      </p>
+      <dl class="agenda">
+        <dt>6:00 pm</dt>
+        <dd>Dinner is served</dd>
+        <dt>6:15 pm</dt>
+        <dd>Introduction</dd>
+        <dt>6:30 pm</dt>
+        <dd>Session on Learn You Node Workshop</dd>
+        <dt>7:30 pm</dt>
+        <dd>Break</dd>
+        <dt>7:45 pm</dt>
+        <dd>Continue Session on Learn You Node Workshop</dd>
+        <dt>9:00 pm</dt>
+        <dd>End session</dd>
+      </dl>
+
+      <h3 id="getting-started">Getting Started with Node</h3>
+      <p>
+        Node.js is easy to install. Just visit the download page and get started.
+        (<a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>)
+      </p>
+      <p>
+        The official site has great documentation on their APIs.
+        (<a href="https://nodejs.org/docs/v5.1.0/api/">https://nodejs.org/docs/v5.1.0/api/</a>)
+      </p>
+      <p>
+        Mozilla Developer Network probably has the best JavaScript docs.
+        (<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">https://developer.mozilla.org/en-US/docs/Web/JavaScript</a>)
+      </p>
+      <p>
+        The Art of Node is a great guide on the core concepts of Node.js.
+        (<a href="https://github.com/maxogden/art-of-node/#the-art-of-node">https://github.com/maxogden/art-of-node/#the-art-of-node</a>)
+      </p>
+      <p>
+        An excellent list of modules, resources, and other node knowledge is listed on Awesome Node.
+        (<a href="https://github.com/sindresorhus/awesome-nodejs">https://github.com/sindresorhus/awesome-nodejs</a>)
+      </p>
+
+      <h3 id="javascripting">Javascripting</h3>
+      <p>Github: <a href="https://github.com/sethvincent/javascripting">https://github.com/sethvincent/javascripting</a>
+      <p>
+        Ensure that Node.js is installed and that you have an internet connection.
+        Open your terminal and run this command:
+      </p>
+      <pre><code>npm install --global javascripting</code></pre>
+      <p>
+        The --global option installs this module globally so that you can run it as a command in your terminal.
+      </p>
+      <h4>Having issues with installation?</h4>
+      <p>
+        If you get an EACCESS error, the simplest way to fix this is to rerun the command, prefixed with sudo:
+      </p>
+      <pre><code>sudo npm install --global javascripting</code></pre>
+      <p>
+        You can also fix the permissions so that you don't have to use sudo. Take a look at this npm
+        documentation: https://docs.npmjs.com/getting-started/fixing-npm-permissions
+      </p>
+      <h4>Run the workshop</h4>
+      <p>
+        Open your terminal and run the following command:
+      </p>
+      <pre><code>javascripting</code></pre>
+
+      <h3 id="learnyounode">Learnyounode</h3>
+      <p>Github: <a href="https://github.com/workshopper/learnyounode">https://github.com/workshopper/learnyounode</a>
+      <p>
+        Ensure that Node.js is installed and that you have an internet connection.
+        Open your terminal and run this command:
+      </p>
+      <pre><code>npm install --global learnyounode</code></pre>
+      <p>
+        The --global option installs this module globally so that you can run it as a command in your terminal.
+      </p>
+      <h4>Having issues with installation?</h4>
+      <p>
+        If you get an EACCESS error, the simplest way to fix this is to rerun the command, prefixed with sudo:
+      </p>
+      <pre><code>sudo npm install --global learnyounode</code></pre>
+      <p>
+        You can also fix the permissions so that you don't have to use sudo. Take a look at this npm
+        documentation: https://docs.npmjs.com/getting-started/fixing-npm-permissions
+      </p>
+      <h4>Run the workshop</h4>
+      <p>
+        Open your terminal and run the following command:
+      </p>
+      <pre><code>learnyounode</code></pre>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      twitter
+      github
+      meetup
+    </div>
+  </footer>
+</body>
+</html>
