@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/madison/static/css/main.2cce8147.chunk.css",
-    "main.js": "/madison/static/js/main.8ed52995.chunk.js",
-    "main.js.map": "/madison/static/js/main.8ed52995.chunk.js.map",
+    "main.js": "/madison/static/js/main.9164644a.chunk.js",
+    "main.js.map": "/madison/static/js/main.9164644a.chunk.js.map",
     "runtime~main.js": "/madison/static/js/runtime~main.e41c273f.js",
     "runtime~main.js.map": "/madison/static/js/runtime~main.e41c273f.js.map",
-    "static/js/2.35348412.chunk.js": "/madison/static/js/2.35348412.chunk.js",
-    "static/js/2.35348412.chunk.js.map": "/madison/static/js/2.35348412.chunk.js.map",
+    "static/js/2.85d3361f.chunk.js": "/madison/static/js/2.85d3361f.chunk.js",
+    "static/js/2.85d3361f.chunk.js.map": "/madison/static/js/2.85d3361f.chunk.js.map",
     "index.html": "/madison/index.html",
-    "precache-manifest.f52b2f20495f9a6da35703cb39add3b4.js": "/madison/precache-manifest.f52b2f20495f9a6da35703cb39add3b4.js",
+    "precache-manifest.87756cc2cceb01b0b90759425a37bd50.js": "/madison/precache-manifest.87756cc2cceb01b0b90759425a37bd50.js",
     "service-worker.js": "/madison/service-worker.js",
     "static/css/main.2cce8147.chunk.css.map": "/madison/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/madison/static/media/logo.5d5d9eef.svg"
+    "static/media/wip.jpg": "/madison/static/media/wip.1fa4cfbc.jpg"
   }
 }
