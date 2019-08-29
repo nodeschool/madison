@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d3b7269b113ef057f13ed88913c337e6",
+    "revision": "b9740600a6fbfda3fea823af51849025",
     "url": "/madison/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/madison/static/css/2.266e55a5.chunk.css"
   },
   {
-    "revision": "07f8511d43f5eea45e53",
+    "revision": "f85478a2bbe54f9aee20",
     "url": "/madison/static/css/main.c982a2bb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/madison/static/js/2.21a23eb4.chunk.js"
   },
   {
-    "revision": "07f8511d43f5eea45e53",
-    "url": "/madison/static/js/main.5b7592fa.chunk.js"
+    "revision": "f85478a2bbe54f9aee20",
+    "url": "/madison/static/js/main.8c892be1.chunk.js"
   },
   {
     "revision": "2f0540c7ee1dec12d080",
